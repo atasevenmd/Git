@@ -5,5 +5,5 @@ function sum() {
   var sum = parseInt(number1) + parseInt(number2);
 
   var result = document.getElementById("result");
-  result.innerText = result;
+  result.value = sum;
 }
